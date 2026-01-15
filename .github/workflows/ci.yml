@@ -17,6 +17,7 @@ on:  # zizmor: ignore[cache-poisoning]
     branches:
       - master
       - '*-maint'
+  workflow_dispatch:
 
 permissions: {}
 
